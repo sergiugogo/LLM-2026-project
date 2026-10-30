@@ -1,0 +1,45 @@
+# Internal team-only notes
+instructions/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Data, models, artefacts (large / regenerable)
+data/raw/
+data/interim/
+data/packs/*/corpus/
+models/
+checkpoints/
+adapters/
+*.gguf
+*.safetensors
+*.bin
+
+# Vector store / DB local volumes
+qdrant_storage/
+chroma/
+*.sqlite3
+*.db
+
+# Generated media
+renders/
+images/cache/
+
+# Eval outputs (reports are committed, raw runs are not)
+eval/runs/
+eval/.cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.DS_Store
