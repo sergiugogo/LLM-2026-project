@@ -1,0 +1,1 @@
+The RFC is OK, but for the next steps, map one game turn: player action, rules/state tool, agent narration, and updated state. Keep the rules—not the model’s prose—as the source of truth for what changed.
